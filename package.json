@@ -1,0 +1,19 @@
+{
+  "devDependencies": {
+    "@loadable/babel-plugin": "^5.13.2"
+  },
+  "scripts": {
+    "start": "rcpress dev docs",
+    "build": "rcpress build docs",
+    "generate": "rcpress generate docs"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^4.7.0",
+    "antd": "^4.16.13",
+    "moment": "^2.29.1",
+    "pluviophobe-react": "^0.1.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-syntax-highlighter": "^15.4.4"
+  }
+}
