@@ -1,4 +1,4 @@
-## useIsVisible 
+# useIsVisible 
 <RcCard
   cardTitle={'usage'}
   cardExtra={'useIsVisible'}

@@ -1,5 +1,4 @@
-## useThrottle 
-
+# useThrottle 
 <RcCard
   cardTitle={'usage'}
   cardExtra={'useThrottle'}

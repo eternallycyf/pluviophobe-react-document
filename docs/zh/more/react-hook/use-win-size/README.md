@@ -1,5 +1,4 @@
-## useWinSize 屏幕尺寸
-
+# useWinSize 屏幕尺寸
 <RcCard
   cardTitle={'使用方法'}
   cardExtra={'useWinSize 获取屏幕尺寸'}

@@ -1,5 +1,4 @@
-## useThrottle 节流
-
+# useThrottle 节流
 <RcCard
   cardTitle={'使用方法'}
   cardExtra={'useThrottle 节流'}

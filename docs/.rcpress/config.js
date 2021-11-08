@@ -197,8 +197,7 @@ let sidebar = {
     },
   ],
 }
-  / edit / master / docs / design / README.md
-blob / gh - pages / design / index.html
+
 let sidebar_zh = {
   '/zh/design/': [
     {
