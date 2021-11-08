@@ -1,7 +1,7 @@
 ---
 home: true
 showStar: true
-heroImage: ../assets/logom.png
+heroImage: /assets/logom.png
 tagline: /fə.ˈnɛt.ɪks/ React 组件库
 actionText: 立即开始 →
 actionLink: /zh/component/all/
