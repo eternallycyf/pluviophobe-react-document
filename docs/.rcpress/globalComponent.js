@@ -21,7 +21,7 @@ import { EditOutlined, EllipsisOutlined, SettingOutlined } from '@ant-design/ico
 import 'pluviophobe-react/dist/index.css'
 // 导入本地组件
 import RcCard from './component/rc-card'
-
+import showTime from './component/showTime'
 export default {
   Button,
   Alert,
@@ -37,5 +37,6 @@ export default {
   Card,
   Divider,
 
-  RcCard
+  RcCard,
+  showTime
 };

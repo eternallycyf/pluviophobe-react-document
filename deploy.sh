@@ -5,7 +5,8 @@ set -e
 
 rm -rf docs/.rcpress/dist
 # 生成静态文件
-npm run generate
+npm run build
+# npm run generate
 
 # 进入生成的文件夹
 
