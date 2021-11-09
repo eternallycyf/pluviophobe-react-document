@@ -9,7 +9,7 @@ let nav = [
       { text: 'react', link: '/more/react/' },
       { text: 'react Hook', link: '/more/react-hook/hook-all/' },
       { text: 'redux', link: '/more/redux/' },
-      { text: 'Ant Design', link: '/more/ant-design/' },
+      { text: 'Ant Design', link: '/more/ant-design/all/' },
     ]
   },
   { text: 'GitHub', link: 'https://github.com/eternallycyf/pluviophobe-react' }
@@ -26,7 +26,7 @@ let nav_zh = [
       { text: 'react', link: '/zh/more/react/' },
       { text: 'react Hook', link: '/zh/more/react-hook/hook-all/' },
       { text: 'redux', link: '/zh/more/redux/' },
-      { text: 'Ant Design', link: '/zh/more/ant-design/' },
+      { text: 'Ant Design', link: '/more/ant-design/all/' },
     ]
   },
   { text: 'GitHub', link: 'https://github.com/eternallycyf/pluviophobe-react' }
@@ -195,7 +195,7 @@ let sidebar = {
     {
       title: 'Antdesign',
       collapsable: false,
-      path: "/more/ant-design/all",
+      path: "/more/ant-design/all/",
       children: [
         ['/more/ant-design/all/', 'AntDesign All'],
         {
@@ -208,7 +208,9 @@ let sidebar = {
         {
           title: "Component Use skill",
           collapsable: false,
-          path: "/more/ant-design/component-use-skill/"
+          children: [
+            ['/more/ant-design/component-use-skill/', 'Component Use skill'],
+          ]
         },
       ]
     },
@@ -377,7 +379,7 @@ let sidebar_zh = {
     {
       title: 'Antdesign',
       collapsable: false,
-      path: "/zh/more/ant-design/all",
+      path: "/zh/more/ant-design/all/",
       children: [
         ['/zh/more/ant-design/all/', 'AntDesign All'],
         {
@@ -390,7 +392,9 @@ let sidebar_zh = {
         {
           title: "Component Use skill",
           collapsable: false,
-          path: "/zh/more/ant-design/component-use-skill/"
+          children: [
+            ['/zh/more/ant-design/component-use-skill/', 'Component Use skill'],
+          ]
         },
       ]
     },
