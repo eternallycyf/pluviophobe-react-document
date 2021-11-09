@@ -191,9 +191,26 @@ let sidebar = {
       title: 'redux',
     },
   ],
-  '/more/antdesign/': [
+  '/more/ant-design/': [
     {
       title: 'Antdesign',
+      collapsable: false,
+      path: "/more/ant-design/all",
+      children: [
+        ['/more/ant-design/all/', 'AntDesign All'],
+        {
+          title: "Bug",
+          collapsable: false,
+          children: [
+            ['/more/ant-design/bug/', 'Bug'],
+          ]
+        },
+        {
+          title: "Component Use skill",
+          collapsable: false,
+          path: "/more/ant-design/component-use-skill/"
+        },
+      ]
     },
   ],
 }
@@ -359,6 +376,23 @@ let sidebar_zh = {
   '/zh/more/ant-design/': [
     {
       title: 'Antdesign',
+      collapsable: false,
+      path: "/zh/more/ant-design/all",
+      children: [
+        ['/zh/more/ant-design/all/', 'AntDesign All'],
+        {
+          title: "Bug",
+          collapsable: false,
+          children: [
+            ['/zh/more/ant-design/bug/', 'Bug'],
+          ]
+        },
+        {
+          title: "Component Use skill",
+          collapsable: false,
+          path: "/zh/more/ant-design/component-use-skill/"
+        },
+      ]
     },
   ],
 }
@@ -368,7 +402,7 @@ let GitHubConfig = {
   docsRepo: 'eternallycyf/pluviophobe-react-document',
   docsRelativeDir: 'packages/docs',
   docsDir: 'docs',
-  docsBranch: 'master',
+  docsBranch: 'main',
   editLinks: true,
   editLinkText: '帮助我们改善此页面！',
   showAvatarList: true
