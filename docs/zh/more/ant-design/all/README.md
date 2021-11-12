@@ -6,5 +6,15 @@
 ## Bug
 - [Bug](/more/ant-design/bug/)
 
-## 组件使用技巧
-- [组件使用技巧](/more/ant-design/component-use-skill/)
+## Form
+- [Form](/more/ant-design/form/)
+
+## Table
+- [Table](/more/ant-design/table/)
+
+## DatePicker
+- [DatePicker](/more/ant-design/date-picker/)
+
+## Upload
+- [Upload](/more/ant-design/upload/)
+

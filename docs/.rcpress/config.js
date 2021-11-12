@@ -209,7 +209,10 @@ let sidebar = {
           title: "Component Use skill",
           collapsable: false,
           children: [
-            ['/more/ant-design/component-use-skill/', 'Component Use skill'],
+            ['/more/ant-design/form/', 'Form'],
+            ['/more/ant-design/table/', 'Table'],
+            ['/more/ant-design/date-picker/', 'DatePicker'],
+            ['/more/ant-design/upload/', 'Upload'],
           ]
         },
       ]
@@ -393,7 +396,10 @@ let sidebar_zh = {
           title: "Component Use skill",
           collapsable: false,
           children: [
-            ['/zh/more/ant-design/component-use-skill/', 'Component Use skill'],
+            ['/zh/more/ant-design/form/', 'Form'],
+            ['/zh/more/ant-design/table/', 'Table'],
+            ['/zh/more/ant-design/date-picker/', 'DatePicker'],
+            ['/zh/more/ant-design/upload/', 'Upload'],
           ]
         },
       ]
