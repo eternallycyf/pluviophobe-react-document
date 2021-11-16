@@ -6,3 +6,18 @@
 2.node_modules
 carousel.js  400Lines  notes: e.preventDefault()
 ```
+
+## antd upload 405 error
+```js
+As a result of Upload Component has action props,
+When you add files, that will build a POST request the action path。
+So it Prompt 405 error
+resolvent:
+1. Set an aciton interface path,
+The back end sets a 200 status code interface that returns an empty object
+
+2.
+beforeUpload={(file) => {
+  return false;
+}}
+```
