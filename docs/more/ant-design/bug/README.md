@@ -1,13 +1,13 @@
 # Bug
 
-## antd mobile-v2 Carousel Component sliding report error 
+## 1.antd mobile-v2 Carousel Component sliding report error 
 ```js
 1.Use react version below 17.0
 2.node_modules
 carousel.js  400Lines  notes: e.preventDefault()
 ```
 
-## antd upload 405 error
+## 2.antd upload 405 error
 ```js
 As a result of Upload Component has action props,
 When you add files, that will build a POST request the action path。
