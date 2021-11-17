@@ -3,6 +3,7 @@ import { Card, Divider, Empty } from 'antd'
 import { Icon } from 'pluviophobe-react'
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
 import { dracula } from 'react-syntax-highlighter/dist/esm/styles/hljs';
+import './index.less'
 /**
  * @param {string} cardTitle card组件的左上角
  * @param {ReactNode} cardExtra card组件右上角
