@@ -38,13 +38,6 @@ lang: en-US
        <Button type="link" disabled={false}>
          link 按钮 
       </Button>
-      <h2>size</h2>
-      <Button type="primary" size='lg'>
-         lg 按钮 
-      </Button>
-       <Button type="primary" size='small'>
-         small 按钮 
-      </Button>
     </>
   }
   
@@ -62,13 +55,6 @@ lang: en-US
       </Button>
       <Button type="link" disabled={false}>
          default 按钮 
-      </Button>
-      <h2>size</h2>
-      <Button type="primary" size='lg'>
-         lg 按钮 
-      </Button>
-       <Button type="primary" size='small'>
-         small 按钮 
       </Button>
   `}
   descriptionTitle={'按钮 Type'}

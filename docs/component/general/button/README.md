@@ -15,7 +15,7 @@ In pluviophobe-react we provide 5 types of button.
 - `disabled`: when actions are not available.
 - `loading` : add loading spinner in button, avoiding multiple submits too.
 
-##
+## Code demonstration
 
 <RcCard
   content={
@@ -32,13 +32,6 @@ In pluviophobe-react we provide 5 types of button.
       </Button>
        <Button type="link" disabled={false}>
          link button 
-      </Button>
-      <h2>size</h2>
-      <Button type="primary" size='lg'>
-         lg button 
-      </Button>
-       <Button type="primary" size='small'>
-         small button 
       </Button>
     </>
   }
@@ -57,13 +50,6 @@ In pluviophobe-react we provide 5 types of button.
       </Button>
       <Button type="link" disabled={false}>
          default button 
-      </Button>
-      <h2>size</h2>
-      <Button type="primary" size='lg'>
-         lg button 
-      </Button>
-       <Button type="primary" size='small'>
-         small button 
       </Button>
   `}
   descriptionTitle={'button Type'}
