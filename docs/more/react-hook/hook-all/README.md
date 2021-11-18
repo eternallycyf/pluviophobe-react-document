@@ -1,9 +1,9 @@
-# React Custom Hook
-::: tip | PluvioPhobe UI
- this is useful hook
-:::
+# Hook
 
 ## reactHook
+::: tip | PluvioPhobe UI
+ this is help for react hook
+:::
 
 ### useState
 
@@ -15,31 +15,32 @@
 
 ### useRef
 
-- [useEffect](/more/react-hook/use-ref/)
+- [useRef](/more/react-hook/use-ref/)
 
 ### useReducer
 
-- [useEffect](/more/react-hook/use-reducer/)
+- [useReducer](/more/react-hook/use-reducer/)
 
 ### useCallback
 
-- [useEffect](/more/react-hook/use-callback/)
+- [useCallback](/more/react-hook/use-callback/)
 
 ### useMemo
 
-- [useEffect](/more/react-hook/use-memo/)
+- [useMemo](/more/react-hook/use-memo/)
 
 ### useContext
 
-- [useEffect](/more/react-hook/use-context/)
+- [useContext](/more/react-hook/use-context/)
 
 ### forceUpdate
 
-- [useEffect](/more/react-hook/force-update/)
+- [forceUpdate](/more/react-hook/force-update/)
 
 ## customReactHook
-
-- [useEffect](/more/react-hook/use-state/)
+::: tip | PluvioPhobe UI
+ this is useful hook
+:::
 
 ### useDebouce
 - [useDebouce](/more/react-hook/use-debouce/)
