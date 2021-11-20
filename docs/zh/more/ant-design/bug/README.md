@@ -20,3 +20,11 @@ beforeUpload={(file) => {
   return false;
 }}
 ```
+
+## 3.antd datePicker onChange 取消上一个所选的日期 没反应
+```js
+<DatePicker
+  value={""}  // 必须
+  onChange={()=>...}
+/>
+```

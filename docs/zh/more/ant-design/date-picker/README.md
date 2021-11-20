@@ -257,3 +257,77 @@ const Test = () => {
 }
 export default Test
 ```
+
+## 6 多选日期
+```js
+import React, { useState } from "react";
+import { DatePicker, Button } from "antd";
+import moment from "moment";
+import styles from './index.less';
+
+const MultipleDatePicker = () => {
+  // 选中的日期 timestamp[]
+  const [selectedDate, setSelectedDate] = useState([])
+
+  // 日期发生变化时 重复去重 没有则添加
+  const onValueChange = (date) => {
+    const newDate = moment(date).startOf("day").valueOf()
+    if (selectedDate.includes(newDate)) {
+      setSelectedDate([...selectedDate.filter(item => item !== newDate)])
+    } else {
+      setSelectedDate([...selectedDate, newDate])
+    }
+  };
+
+  // 渲染选中日期外观
+  const dateRender = (currentDate) => {
+    const isSelected = selectedDate.includes(moment(currentDate).startOf("day").valueOf())
+    let selectStyle = isSelected ?
+      {
+        position: 'relative',
+        zIndex: 2,
+        display: 'inlineBlock',
+        width: "24px",
+        height: "22px",
+        lineHeight: "22px",
+        backgroundColor: "#1890ff",
+        color: "#fff",
+        margin: "auto",
+        borderRadius: "2px",
+        transition: "background 0.3s, border 0.3s"
+      }
+      : {}
+    return (<div style={selectStyle} > {currentDate.date()}  </div >)
+  }
+
+  return (
+    <>
+      <div className={styles.multipleDatePicker}>
+        <DatePicker
+          open
+          dateRender={dateRender}
+          onChange={onValueChange}
+          showToday={false}
+          value={""}
+        />
+        <Button type='primary' onClick={() => console.log(selectedDate)}>确定</Button>
+      </div>
+    </>
+  )
+}
+export default MultipleDatePicker
+# less
+.multipleDatePicker {
+  :global {
+    .ant-picker-input {
+      display: none !important;
+    }
+    .ant-picker {
+      border: none;
+      padding: 0;
+    }
+  }
+}
+# 配合 select
+https://codesandbox.io/s/antd-reproduction-template-forked-1mos9?file=/index.js
+```
