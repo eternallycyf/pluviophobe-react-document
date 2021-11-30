@@ -1,7 +1,7 @@
 let nav = [
   { text: 'HomePage', link: "/", important: true },
   { text: 'Design', link: "/design/" },
-  { text: 'Document', link: "/document/" },
+  { text: 'JS-API', link: "/js-api/" },
   { text: 'Component', link: '/component/all/' },
   {
     text: 'More',
@@ -18,7 +18,7 @@ let nav = [
 let nav_zh = [
   { text: '主页', link: "/zh/" },
   { text: '设计', link: "/zh/design/" },
-  { text: '文档', link: "/zh/document/" },
+  { text: 'JS-API', link: "/zh/js-api/" },
   { text: '组件', link: '/zh/component/all/' },
   {
     text: '更多',
@@ -36,8 +36,8 @@ let sidebar = {
   '/design/': [{
     title: 'design',
   }],
-  '/document/': [{
-    title: 'document',
+  '/js-api/': [{
+    title: 'JS-API',
   }],
   '/component/': [{
     title: "component",
@@ -192,7 +192,7 @@ let sidebar = {
   }],
   '/more/redux/': [{
     title: 'redux',
-  }, ],
+  },],
   '/more/ant-design/': [{
     title: 'Antdesign',
     collapsable: false,
@@ -217,15 +217,15 @@ let sidebar = {
         ]
       },
     ]
-  }, ],
+  },],
 }
 
 let sidebar_zh = {
   '/zh/design/': [{
     title: '设计',
   }],
-  '/zh/document/': [{
-    title: '文档',
+  '/zh/js-api/': [{
+    title: 'JS-API',
   }],
   '/zh/component/': [{
     path: "/zh/component/all/",
@@ -342,7 +342,7 @@ let sidebar_zh = {
   }],
   '/zh/more/react/': [{
     title: 'react',
-  }, ],
+  },],
   '/zh/more/react-hook/': [{
     title: 'ReactHookAll',
     collapsable: false,
@@ -379,7 +379,7 @@ let sidebar_zh = {
   }],
   '/zh/more/redux/': [{
     title: 'redux',
-  }, ],
+  },],
   '/zh/more/ant-design/': [{
     title: 'Antdesign',
     collapsable: false,
@@ -404,7 +404,7 @@ let sidebar_zh = {
         ]
       },
     ]
-  }, ],
+  },],
 }
 
 let GitHubConfig = {
