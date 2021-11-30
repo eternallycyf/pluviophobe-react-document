@@ -1,0 +1,14 @@
+h2 {
+  margin: 40px 0;
+}
+.main-menu-inner {
+  overflow: scroll !important;
+  color: red;
+  height: 130vh;
+}
+.markdown > table td {
+  color: #595959;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
