@@ -7,7 +7,9 @@
   "scripts": {
     "start": "rcpress dev docs",
     "build": "rcpress build docs",
-    "generate": "rcpress generate docs"
+    "generate": "rcpress generate docs",
+    "commit": "git add . && git commit -m 'add' && git push",
+    "publish": " bash deploy.sh"
   },
   "dependencies": {
     "@ant-design/icons": "^4.7.0",
